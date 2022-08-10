@@ -13,7 +13,7 @@ def startGame():
     pass
 
 
-menu = pygame_menu.Menu("Mage slayerzzz",300,600,theme=darkTheme)
+menu = pygame_menu.Menu("Mage slayer",600,300,theme=darkTheme)
 
 menu.add.text_input("Character name: ", default="Chabquest")
 menu.add.selector('Class :', [('Fighter', 1), ('Mage', 2)], onchange=createCharacter)
